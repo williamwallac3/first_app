@@ -5,7 +5,7 @@ gem 'bootstrap-sass'
 gem 'devise'
 
 group :development, :test do
-  gem 'sqlite3'
+  gem 'sqlite3', '1.3.6'
 end
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -28,7 +28,7 @@ end
 gem 'jquery-rails'
 
 group :production do
-  gem 'pg'
+  gem 'pg', '0.12.2'
 end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
